@@ -5,8 +5,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home Page</title>
+    <link rel="stylesheet" href="../style.css" />
   </head>
   <body>
+    <!-- slider Attempt 1-->
+    <!-- <script>
+      var i = 0; //starting point of slides
+      var images = []; //where images will go
+      var time = 300 * 10; //time until next slide
+
+      //Image list
+      images[0] = "Ripperdocs.webp";
+      images[1] = "Rip_with_coffee.jpg";
+
+      //changes image
+      function changeImg() {
+        document.slide.src = images[i];
+
+        if (i < images.length - 1) {
+          i++;
+        } else {
+          i = 0;
+        }
+
+        setTimeout("changeImg()", time);
+      }
+
+      window.onload = changeImg();
+    </script>
+
+    <img name="slider" width="400px" height="200px" /> -->
+
+    <!-- Slideshow attempt 2 -->
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+      <div class="slide-fade">
+        <img src="../Images/Ripperdocs.webp" alt="ripperdocs in a line" />
+      </div>
+
+      <div class="slide-fade">
+        <img src="../Images/Implant_Interface.jpeg" alt="ripperdoc menu" />
+      </div>
+
+      <div class="slide-fade">
+        <img
+          src="../Images/Rip_with_coffee.jpg"
+          alt="man enjoying coffee on operation chair"
+        />
+      </div>
+
+      <div class="slide-fade">
+        <img src="../Images/Arm_pic.webp" alt="cybernetic arm enhancement" />
+      </div>
+
+      <div class="slide-fade">
+        <img src="../Images/Implants.jpeg" alt="cybernetic hand enhancement" />
+      </div>
+    </div>
+    <br />
+
+    <!-- slideshow dots -->
+    <div>
+      <span class="dot" onclick="currentSlide(1)"></span>
+    </div>
+
     <!-- Footer -->
     <footer>
       <a href="https://www.facebook.com/"
@@ -38,6 +100,6 @@
       /></a>
     </footer>
 
-    <script src="app.js"></script>
+    <!-- <script src="app.js"></script> -->
   </body>
 </html>
