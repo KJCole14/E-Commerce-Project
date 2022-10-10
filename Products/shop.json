@@ -1,64 +1,75 @@
-{
-    "popItems": [
+
+    [
         {
+            "image": "Product-Images/Gorilla-Arms.webp",
             "name": "Gorilla Arms",
-            "price": ["€$12750", "€$20450", "€$35450"],
-            "desc": "..."
+            "price": "€$20,450",
+            "desc": "These arm implants drastically increase damage in melee combat. With every melee Attack performed, charges are built up to deal increased damage with the next Strong Attack."
         },
         {
+            "image": "Product-Images/KiroshiOptics.webp",
             "name": "Kiroshi Optics Mk.2",
             "price": "€$2,000",
-            "desc": "..."
+            "desc": "allows scanning of the environment, as well as display information about citizens"
         },
         {
+            "image": "Product-Images/Mantis-Blades.webp",
             "name": "Mantis Blades",
-            "price": ["€$12850", "€$20550", "€$35550"],
-            "desc": "..."
+            "price": "€$35,550",
+            "desc": "The Mantis Blades consist of two simultaneously implanted blades. One blade is installed in each forearm, and remain retracted until used. In its extended state, the shape of the Mantis Blade resembles that of the forelegs of its namesake."
         },
         {
+            "image": "Product-Images/Sandevistan.webp",
+            "name": "Sandevistan",
+            "price": "€$35,000",
+            "desc": "Sandevistan will slow down time to a certain percentage for a set duration."
+        },
+        {
+            "image": "Product-Images/Gorilla-Arms.webp",
             "name": "Gorilla Arms",
             "price": ["€$1203984", "€$1237468", "€$1284729"],
             "desc": "..."
         },
         {
+            "image": "Product-Images/Gorilla-Arms.webp",
             "name": "Gorilla Arms",
             "price": ["€$1203984", "€$1237468", "€$1284729"],
             "desc": "..."
         },
         {
+            "image": "Product-Images/Gorilla-Arms.webp",
             "name": "Gorilla Arms",
             "price": ["€$1203984", "€$1237468", "€$1284729"],
             "desc": "..."
         },
         {
+            "image": "Product-Images/Gorilla-Arms.webp",
             "name": "Gorilla Arms",
             "price": ["€$1203984", "€$1237468", "€$1284729"],
             "desc": "..."
         },
         {
+            "image": "Product-Images/Gorilla-Arms.webp",
             "name": "Gorilla Arms",
             "price": ["€$1203984", "€$1237468", "€$1284729"],
             "desc": "..."
         },
         {
+            "image": "Product-Images/Gorilla-Arms.webp",
             "name": "Gorilla Arms",
             "price": ["€$1203984", "€$1237468", "€$1284729"],
             "desc": "..."
         },
         {
+            "image": "Product-Images/Gorilla-Arms.webp",
             "name": "Gorilla Arms",
             "price": ["€$1203984", "€$1237468", "€$1284729"],
             "desc": "..."
         },
         {
-            "name": "Gorilla Arms",
-            "price": ["€$1203984", "€$1237468", "€$1284729"],
-            "desc": "..."
-        },
-        {
+            "image": "Product-Images/Gorilla-Arms.webp",
             "name": "Gorilla Arms",
             "price": ["€$1203984", "€$1237468", "€$1284729"],
             "desc": "..."
         }
     ]
-}

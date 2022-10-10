@@ -6,13 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shop Page</title>
     <link rel="stylesheet" href="../style.css" />
+    <style>
+      @media (max-width: 425px) {
+        #growfoot,
+        #growhead,
+        nav {
+          min-width: 200%;
+          font-size: 30px;
+        }
+      }
+    </style>
   </head>
   <body>
+    <header id="growhead">Shop</header>
+    <li>
+      <a href="../Home/Index.html"
+        ><img id="logo" src="../Images/Gear-Icon.png" alt="Gear Icon"
+      /></a>
+    </li>
+    <nav class="navbar grow">
+      <ul>
+        <li><a class="link" href="../Home/Index.html">Home</a></li>
+      </ul>
+
+      <ul>
+        <li><a class="link" href="Shop.html">Shop</a></li>
+      </ul>
+
+      <ul>
+        <li><a class="link" href="../Contact.html">Contact</a></li>
+      </ul>
+    </nav>
     <h2>Popular Items</h2>
-    <ol></ol>
+    <!-- <ol></ol> -->
+    <table>
+      <thead>
+        <tr>
+          <th>Image</th>
+          <th>Name</th>
+          <th>Price</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody id="data-output"></tbody>
+    </table>
 
     <!-- Footer -->
-    <footer>
+    <footer id="growfoot">
       <a href="https://www.facebook.com/"
         ><img
           src="../Images/Facebooklogo.png"

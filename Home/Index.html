@@ -7,45 +7,30 @@
     <title>Home Page</title>
     <link rel="stylesheet" href="../style.css" />
   </head>
+
   <body>
-    <!-- slider Attempt 1-->
-    <!-- <script>
-      var i = 0; //starting point of slides
-      var images = []; //where images will go
-      var time = 300 * 10; //time until next slide
+    <header>Chrome Conclave</header>
+    <li>
+      <a href="Index.html"
+        ><img id="logo" src="../Images/Gear-Icon.png" alt="Gear Icon"
+      /></a>
+    </li>
+    <nav class="navbar">
+      <ul>
+        <li><a class="link" href="Index.html">Home</a></li>
+      </ul>
 
-      //Image list
-      images[0] = "Ripperdocs.webp";
-      images[1] = "Rip_with_coffee.jpg";
+      <ul>
+        <li><a class="link" href="../Products/Shop.html">Shop</a></li>
+      </ul>
 
-      //changes image
-      function changeImg() {
-        document.slide.src = images[i];
+      <ul>
+        <li><a class="link" href="../Contact.html">Contact</a></li>
+      </ul>
+    </nav>
 
-        if (i < images.length - 1) {
-          i++;
-        } else {
-          i = 0;
-        }
-
-        setTimeout("changeImg()", time);
-      }
-
-      window.onload = changeImg();
-    </script>
-
-    <img name="slider" width="400px" height="200px" /> -->
-
-    <!-- Slideshow attempt 2 -->
     <!-- Slideshow container -->
     <div class="slideshow-container">
-      <!-- <button class="left-arrow">
-        <img src="../Images/arr-left.png" alt="left arrow" />
-      </button>
-      <button class="right-arrow">
-        <img src="../Images/arr-right.png" alt="right arrow" />
-      </button> -->
-
       <div class="slide fade">
         <img src="../Images/Ripperdocs.webp" alt="ripperdocs in a line" />
       </div>
@@ -61,9 +46,9 @@
         />
       </div>
 
-      <div class="slide fade">
+      <!-- <div class="slide fade">
         <img src="../Images/Arm_pic.webp" alt="cybernetic arm enhancement" />
-      </div>
+      </div> -->
 
       <div class="slide fade">
         <img src="../Images/Implants.jpeg" alt="cybernetic hand enhancement" />

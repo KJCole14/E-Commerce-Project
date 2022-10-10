@@ -1,20 +1,54 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: copperplate;
 }
 body {
     background-image: linear-gradient(to bottom right, black, rgb(235, 8, 105));
+    /* text-align: center; */
+}
+header {
+    font-size: 50px;
+    text-align: center;
+    color: rgb(214, 219, 223);
+}
+/* nav styling */
+#logo {
+    max-width: 20%;
+    max-height: 20%;
+    float: left;
+}
+
+.navbar {
+    height: 20%;
+    justify-content: space-around;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2.5%;
+    font-size: 25px;
+    padding-top: 2.5%;
+} 
+
+a.link{
+    text-decoration: none;
+    color: white;
+    float: right;
+}
+
+nav a:hover{
+    color: yellow;
 }
 
 /*slideshow styling*/
 .slideshow-container {
     width: 100%;
-    height: 45%;
+    max-height: 45%;
 }
 
 div img {
     width: 100%;
-    height: 40%;
+    max-height: 40%;
     position: relative;
 }
 
@@ -51,6 +85,13 @@ div img {
     to {opacity: 1;}
 }
 
+/* product table */
+tr {
+    background-image:linear-gradient(to bottom right, slategrey, white);
+    border: solid 3px black;
+    text-align: center;
+}
+
 
 /* footer styling */
 .footerlogo {
@@ -63,6 +104,42 @@ footer {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
-    margin-top: 3%;
+    margin-top: 15%;
     margin-bottom: 3%;
   }
+
+  /* item list styling */
+  ol {
+    color: lightskyblue;
+  }
+
+  /* form style */
+  form {
+    text-align: center;
+    background-image: url(/Images/Chrome-Background.jpeg);
+    max-width: 80%;
+    margin-left: 20%;
+    padding-bottom: 30%;
+    border-radius: 20px;
+  }
+  input {
+    width: 35%;
+    margin-top: 3%;
+    border-radius: 50px;
+  }
+  textarea {
+    height: 30px;
+    width: 35%;
+    border-radius: 20px;
+    padding-bottom: 20px;
+  }
+  button {
+    border-radius: 10px;
+    padding: 5px;
+  }
+  button:hover {
+    background-color: cadetblue;
+    color: white;
+  }
+
+  /* media Queries */
