@@ -25,22 +25,22 @@
             "desc": "Sandevistan will slow down time to a certain percentage for a set duration."
         },
         {
-            "image": "Product-Images/Gorilla-Arms.webp",
-            "name": "Gorilla Arms",
-            "price": ["€$1203984", "€$1237468", "€$1284729"],
-            "desc": "..."
+            "image": "Product-Images/Monowire.png",
+            "name": "Monowire",
+            "price": "€$20,650",
+            "desc": "This arms modification relies on a unique battery-reliant mechanic which distinguishes the severity of its attacks. Depending on the level of charge, the damage dealt will change, that too, in a directly proportional manner."
         },
         {
-            "image": "Product-Images/Gorilla-Arms.webp",
-            "name": "Gorilla Arms",
-            "price": ["€$1203984", "€$1237468", "€$1284729"],
-            "desc": "..."
+            "image": "Product-Images/Projectile-launcher.webp",
+            "name": "Projectile Launch System",
+            "price": "€$35,650",
+            "desc": "These arms implants allow you to launch projectiles from the forearm. The damage it deals depends on the type of loaded rounds."
         },
         {
-            "image": "Product-Images/Gorilla-Arms.webp",
-            "name": "Gorilla Arms",
-            "price": ["€$1203984", "€$1237468", "€$1284729"],
-            "desc": "..."
+            "image": "Product-Images/Reinforced-Ankles.webp",
+            "name": "Reinforced Ankles",
+            "price": "30,000",
+            "desc": "This cyberware implant allows you to perform a charged jump"
         },
         {
             "image": "Product-Images/Gorilla-Arms.webp",
