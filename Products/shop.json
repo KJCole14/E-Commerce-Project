@@ -39,37 +39,37 @@
         {
             "image": "Product-Images/Reinforced-Ankles.webp",
             "name": "Reinforced Ankles",
-            "price": "30,000",
+            "price": "€$30,000",
             "desc": "This cyberware implant allows you to perform a charged jump"
         },
         {
-            "image": "Product-Images/Gorilla-Arms.webp",
-            "name": "Gorilla Arms",
-            "price": ["€$1203984", "€$1237468", "€$1284729"],
-            "desc": "..."
+            "image": "Product-Images/Lynx-Paws.webp",
+            "name": "Lynx Paws",
+            "price": "€$54,400",
+            "desc": "This cyberware implant increases your stealth effectiveness while moving and running, significantly reducing the sound your make and the chance of enemies detecting you."
         },
         {
-            "image": "Product-Images/Gorilla-Arms.webp",
-            "name": "Gorilla Arms",
-            "price": ["€$1203984", "€$1237468", "€$1284729"],
-            "desc": "..."
+            "image": "Product-Images/Reinforced-Tendons.webp",
+            "name": "Reinforced Tendons",
+            "price": "€$30,000",
+            "desc": "This cyberware implant allows you to perform double jumps"
         },
         {
-            "image": "Product-Images/Gorilla-Arms.webp",
-            "name": "Gorilla Arms",
-            "price": ["€$1203984", "€$1237468", "€$1284729"],
-            "desc": "..."
+            "image": "Product-Images/Biotech-Mark3.webp",
+            "name": "BioDyne Mark 3",
+            "price": "€$16,000",
+            "desc": "The BioDyne Mark 3 has a base RAM of 10 and a buffer size of 7. It allows the installation of up to five Quickhacks."
         },
         {
-            "image": "Product-Images/Gorilla-Arms.webp",
-            "name": "Gorilla Arms",
-            "price": ["€$1203984", "€$1237468", "€$1284729"],
-            "desc": "..."
+            "image": "Product-Images/Berserk-Mark4.webp",
+            "name": "BioDyne Berserk Mk.4",
+            "price": "€$16,000",
+            "desc": "The newest line of Berserk implants from BioDyne are notable for their improved ranged combat and defense algorithms thanks to trademarked hormone regulators from the Swedish corporation Dahlberg-Holm"
         },
         {
-            "image": "Product-Images/Gorilla-Arms.webp",
-            "name": "Gorilla Arms",
-            "price": ["€$1203984", "€$1237468", "€$1284729"],
-            "desc": "..."
+            "image": "Product-Images/Kerenzikov.webp",
+            "name": "Kerenzikov",
+            "price": "€$16,000",
+            "desc": "A classic reflex booster."
         }
     ]
